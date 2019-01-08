@@ -1,5 +1,5 @@
 TAG?=latest
-REGISTRY?=shelmangroup
+REGISTRY?=srcd
 IMAGE=coreos-nvidia-driver-installer
 
 container:
