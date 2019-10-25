@@ -26,7 +26,7 @@ spec:
         hostPath:
           path: /
       initContainers:
-      - image: shelmangroup/coreos-nvidia-driver-installer:latest
+      - image: src-d/coreos-nvidia-driver-installer:latest
         name: nvidia-driver-installer
         resources:
           requests:
