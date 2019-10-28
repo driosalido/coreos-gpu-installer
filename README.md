@@ -7,7 +7,7 @@ This docker container is meant to be run in every coreo-os server that has `nvid
 
 It is based on [coreos-gpu-installer](https://github.com/shelmangroup/coreos-gpu-installer). It compiles the driver and the modules and install the files in the host using a overlay filesystem. The drivers are built on the fly every time the server is booted. 
 
-It can be run as a deamonset inside kubernetes or via a systemd unit on every server.
+It can be run as a DaemonSet inside kubernetes or via a systemd unit on every server.
 
 The desired Nvidia Driver version can be assigned using `NVIDIA_DRIVER_VERSION` env variable (Default `410.78`)
 
